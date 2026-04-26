@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>my_turtle_package</name>
+  <version>0.0.0</version>
+  <description>ROS2 package to move turtlesim</description>
+  <maintainer email="alishbakiyani75@gmail.com">alishbakiyani</maintainer>
+  <license>Apache-2.0</license>
+
+  <depend>rclpy</depend>
+  <depend>turtlesim</depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
